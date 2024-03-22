@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gold; 
+}
+.flex-container{
+display: flex;
+background-color: midnightblue;
+flex-flow: row wrap-reverse;
+height: 100%;
+justify-content: flex-end;
+align-content: center;
+}
+
+.box{
+background-color: white;
+width: 150px;
+margin: 10px;
+text-align: center;
+line-height: 50px;
+font-size: 50px;
+
+}
+
+.box:nth-child(1){
+    align-self: center;
+   background-color: slateblue;
+   color: white;
+}
+
+.box:nth-child(2){
+    align-self: center;
+}
+/*
+.box:nth-child(3){
+    align-self: last baseline ;
+}
+
+.box:nth-child(4){
+    align-self: first baseline ;
+}
+
+.box:nth-child(5){
+    align-self: last baseline;
+}
+
+.box:nth-child(6){
+    align-self: last baseline;
+}
+
+.box:nth-child(7){
+   align-self: center;
+}
+*/
+
+
